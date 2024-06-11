@@ -1,0 +1,247 @@
+body {
+    Background-color: rgb(215, 218, 221);
+}
+
+.topview {
+    height: 200px;
+    background-image: url(bendera.png);
+    color: rgb(32, 203, 43);
+    object-position: center;
+    border-bottom: -3px;
+    background-color: grey;
+    text-shadow: whitesmoke;
+    text-shadow: 20px;
+
+}
+
+.body {
+    Background-color: #82add8;
+    ;
+    height: 1000px;
+    border-top: 0;
+}
+
+.bottom {
+    background-color: rgb(190, 179, 179);
+    height: 300px;
+}
+
+.jaza {
+    color: blue;
+    background-color: antiquewhite;
+
+}
+
+.invitation {
+    border: none;
+    color: rgb(255, 255, 255);
+    font: size 16px;
+    ;
+
+}
+
+.submit {
+    background-color: rgb(62, 229, 62);
+    border-radius: 10px;
+    border: none;
+}
+
+input.hover {
+    cursor: pointer;
+    color: rgb(202, 194, 194);
+}
+
+.header {
+    color: rgb(57, 57, 235);
+}
+
+.eastc {
+    border-top: 0px;
+    padding-bottom: 30px;
+}
+
+.input {
+    display: flex;
+    margin: 30px 5px;
+    position: relative;
+    flex-basis: 68%;
+    background: transparent;
+    color: blue;
+
+
+}
+
+.input:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.form {
+    padding: 50px 30px 20px;
+    width: 90%;
+    background: #b8b5c0;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 4px 30px;
+    max-width: 500px;
+
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65vh;
+    background: inherit;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: 700;
+}
+
+.input label {
+    flex-basis: 25%;
+
+}
+
+.checkbox {
+    flex-basis: 50%;
+    color: blue;
+    border-bottom: 10px transparent;
+
+}
+
+form button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 47px;
+    color: ghostwhite;
+    background: green;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16;
+    cursor: pointer;
+    transition: 1s;
+    margin: 35px auto;
+
+
+}
+
+button:hover {
+    background: rgb(96, 231, 98);
+    color: rgb(230, 136, 43);
+    transition: 0.6s;
+}
+
+form button:active {
+    background-color: red;
+    transition: 0.5s;
+    color: antiquewhite;
+}
+
+.checkbox:hover {
+    color: blue;
+    background-color: grey;
+}
+
+.checkbox:active {
+    color: rgb(23, 167, 33);
+    background-color: green;
+}
+
+.sidebar {
+    height: 100%;
+    width: 55px;
+    position: fixed;
+    top: 180;
+    left: 0;
+    bottom: 0;
+    background-color: ghostwhite;
+    display: grid;
+    font-size: 18px;
+    color: hsl(0, 14%, 86%);
+    position: fixed;
+}
+
+.sidebar a:hover {
+    color: rgb(68, 228, 47)
+}
+
+.topbar {
+    background-color: aquamarine;
+    top: 0;
+    right: 0;
+    height: 170px;
+    left: 0;
+    position: fixed;
+    display: inline-flex;
+    background-image: url(bendera.png);
+    font-size: 25;
+    font-weight: 700;
+    font-family: Arial;
+    color: rgb(19, 24, 159);
+}
+
+.sidebar a {
+    border: none;
+}
+
+.content {
+    background: #82add8;
+    height: 100%;
+    right: 0;
+    left: 54;
+    top: 170;
+    position: absolute;
+    display: grid;
+    color: rgb(8, 38, 84);
+
+
+}
+
+.galleyt {
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.galley {
+    display: flex;
+    width: 1100px;
+    overflow-x: scroll;
+}
+
+.galley div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+    flex: none;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+.galley img {
+    filter: grayscale(65%);
+    transition: 0.5s;
+}
+
+
+.galley img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+    cursor: pointer;
+
+
+
+}
